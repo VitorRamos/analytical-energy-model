@@ -1,0 +1,244 @@
+inst,args,energy
+ADD,"[rax, rax]",5694639308
+ADD,"[rax, rcx]",5724628582
+ADD,"[rax, 0]",5784884565
+ADD,"[rax, <peachpy.literal.Constant object at 0x7fd121a51ef0>]",5834311816
+ADD,"[<peachpy.literal.Constant object at 0x7fd121a18128>, rax]",34635837166
+SUB,"[rax, rax]",1600557329
+SUB,"[rax, rcx]",4974564693
+SUB,"[rax, 0]",5086755771
+SUB,"[rax, <peachpy.literal.Constant object at 0x7fd121a51ef0>]",5126953369
+SUB,"[<peachpy.literal.Constant object at 0x7fd121a18128>, rax]",34191677849
+ADC,"[rax, rax]",10086527795
+ADC,"[rax, rcx]",10075353907
+ADC,"[rax, 0]",4973105425
+ADC,"[rax, <peachpy.literal.Constant object at 0x7fd121a51ef0>]",10243728998
+ADC,"[<peachpy.literal.Constant object at 0x7fd121a18128>, rax]",37799779805
+SBB,"[rax, rax]",10112189508
+SBB,"[rax, rcx]",10101328008
+SBB,"[rax, 0]",4997301316
+SBB,"[rax, <peachpy.literal.Constant object at 0x7fd121a51ef0>]",10259748181
+SBB,"[<peachpy.literal.Constant object at 0x7fd121a18128>, rax]",36428904311
+AND,"[rax, rax]",5097551735
+AND,"[rax, rcx]",4996838195
+AND,"[rax, 0]",5142157721
+AND,"[rax, <peachpy.literal.Constant object at 0x7fd121a51ef0>]",5149052108
+AND,"[<peachpy.literal.Constant object at 0x7fd121a18128>, rax]",34191179776
+OR,"[rax, rax]",5116828057
+OR,"[rax, rcx]",5002946150
+OR,"[rax, 0]",5080850978
+OR,"[rax, <peachpy.literal.Constant object at 0x7fd121a51ef0>]",5160228181
+OR,"[<peachpy.literal.Constant object at 0x7fd121a18128>, rax]",34488173636
+XOR,"[rax, rax]",1508863726
+XOR,"[rax, rcx]",5115578504
+XOR,"[rax, 0]",5002345403
+XOR,"[rax, <peachpy.literal.Constant object at 0x7fd121a51ef0>]",5264362700
+XOR,"[<peachpy.literal.Constant object at 0x7fd121a18128>, rax]",34574930193
+NOT,[rax],4990417851
+NOT,[al],5139903283
+NOT,[<peachpy.literal.Constant object at 0x7fd121a18198>],37257974033
+NEG,[rax],5024267195
+NEG,[al],5142478848
+NEG,[<peachpy.literal.Constant object at 0x7fd121a18198>],33714529894
+INC,[rax],4991947025
+INC,[al],5123182865
+INC,[<peachpy.literal.Constant object at 0x7fd121a18198>],37278368836
+DEC,[rax],5116976605
+DEC,[al],4971930146
+DEC,[<peachpy.literal.Constant object at 0x7fd121a18198>],36840966280
+TEST,"[rax, rax]",2059034077
+TEST,"[rax, rcx]",2033883545
+TEST,"[rax, 0]",1982038016
+TEST,"[<peachpy.literal.Constant object at 0x7fd121a18128>, rax]",2611017591
+CMP,"[rax, rax]",1979868774
+CMP,"[rax, rcx]",2075391863
+CMP,"[rax, 0]",1999492437
+CMP,"[rax, <peachpy.literal.Constant object at 0x7fd121a51ef0>]",2618637243
+CMP,"[<peachpy.literal.Constant object at 0x7fd121a18128>, rax]",2634387729
+MOV,"[rax, rax]",5077513011
+MOV,"[rax, rcx]",1985249280
+MOV,"[rax, 0]",1985157529
+MOV,"[rax, <peachpy.literal.Constant object at 0x7fd121a51ef0>]",2597569604
+MOV,"[<peachpy.literal.Constant object at 0x7fd121a18128>, rax]",5235321514
+MOVZX,"[rax, ax]",4948540347
+MOVSX,"[rax, ax]",5070522504
+MOVSXD,"[rax, eax]",4939131562
+MOVNTI,"[<peachpy.literal.Constant object at 0x7fd121a18128>, rax]",5261085900
+BT,"[rax, rax]",2726395904
+BT,"[rax, rcx]",2727577736
+BT,"[rax, 0]",2776887022
+BT,"[<peachpy.literal.Constant object at 0x7fd121a18128>, rax]",27736626517
+BTS,"[rax, rax]",4950204962
+BTS,"[rax, rcx]",5081279146
+BTS,"[rax, 0]",4957724125
+BTS,"[<peachpy.literal.Constant object at 0x7fd121a18128>, rax]",39476267144
+BTR,"[rax, rax]",4947011174
+BTR,"[rax, rcx]",5083548876
+BTR,"[rax, 0]",4971279155
+BTR,"[<peachpy.literal.Constant object at 0x7fd121a18128>, rax]",39577603276
+BTC,"[rax, rax]",5007000644
+BTC,"[rax, rcx]",5149430033
+BTC,"[rax, 0]",5012577757
+BTC,"[<peachpy.literal.Constant object at 0x7fd121a18128>, rax]",40034858871
+BSWAP,[rax],10071692629
+BSF,"[rax, rax]",15284736273
+BSF,"[rax, rcx]",15151433864
+BSF,"[rax, <peachpy.literal.Constant object at 0x7fd121a51ef0>]",15246072217
+BSR,"[rax, rax]",14992214152
+BSR,"[rax, rcx]",14981479355
+BSR,"[rax, <peachpy.literal.Constant object at 0x7fd121a51ef0>]",15278973474
+SHR,"[rax, 0]",4959380002
+SAR,"[rax, 0]",5108393574
+SHL,"[rax, 0]",4961005294
+SAL,"[rax, 0]",5095437107
+SHRD,"[rax, rcx, 0]",4966656682
+SHLD,"[rax, rcx, 0]",5099450094
+ROR,"[rax, 0]",5283143133
+ROL,"[rax, 0]",5411217954
+RCR,"[rax, 0]",26571809314
+RCL,"[rax, 0]",31610745651
+IMUL,"[rax, rcx, 0]",5037625617
+IMUL,"[rax, rax]",15186141730
+IMUL,"[rax, rcx]",14992574600
+IMUL,[rax],15344898321
+IMUL,[al],15037781333
+IMUL,"[rax, <peachpy.literal.Constant object at 0x7fd121a51ef0>]",15153378099
+IMUL,[<peachpy.literal.Constant object at 0x7fd121a18198>],15497795993
+IDIV,[rax],213940504712
+IDIV,[al],103388496964
+IDIV,[<peachpy.literal.Constant object at 0x7fd121a18198>],204145826201
+LEA,"[rax, <peachpy.literal.Constant object at 0x7fd121a51ef0>]",5107452040
+CBW,[],5177330892
+CDQ,[],2782228206
+CQO,[],2780668450
+CWD,[],5177118993
+CWDE,[],5042256827
+CDQE,[],5169444727
+CMOVA,"[rax, rax]",10465332428
+CMOVA,"[rax, rcx]",5804958242
+CMOVA,"[rax, <peachpy.literal.Constant object at 0x7fd121a51ef0>]",6083785523
+CMOVNA,"[rax, rax]",10454910020
+CMOVNA,"[rax, rcx]",5801102540
+CMOVNA,"[rax, <peachpy.literal.Constant object at 0x7fd121a51ef0>]",6091802760
+CMOVAE,"[rax, rax]",10251328989
+CMOVAE,"[rax, rcx]",5064932283
+CMOVAE,"[rax, <peachpy.literal.Constant object at 0x7fd121a51ef0>]",5340224989
+CMOVNAE,"[rax, rax]",10229640942
+CMOVNAE,"[rax, rcx]",5061426107
+CMOVNAE,"[rax, <peachpy.literal.Constant object at 0x7fd121a51ef0>]",5360034338
+CMOVB,"[rax, rax]",10183955797
+CMOVB,"[rax, rcx]",5102366446
+CMOVB,"[rax, <peachpy.literal.Constant object at 0x7fd121a51ef0>]",5219009604
+CMOVNB,"[rax, rax]",10241902728
+CMOVNB,"[rax, rcx]",5201902523
+CMOVNB,"[rax, <peachpy.literal.Constant object at 0x7fd121a51ef0>]",5201850094
+CMOVBE,"[rax, rax]",10481229277
+CMOVBE,"[rax, rcx]",5936751138
+CMOVBE,"[rax, <peachpy.literal.Constant object at 0x7fd121a51ef0>]",5900728183
+CMOVNBE,"[rax, rax]",10370486545
+CMOVNBE,"[rax, rcx]",5894576537
+CMOVNBE,"[rax, <peachpy.literal.Constant object at 0x7fd121a51ef0>]",5977278600
+CMOVC,"[rax, rax]",10237485602
+CMOVC,"[rax, rcx]",5199875276
+CMOVC,"[rax, <peachpy.literal.Constant object at 0x7fd121a51ef0>]",5217711991
+CMOVNC,"[rax, rax]",10254192913
+CMOVNC,"[rax, rcx]",5189780548
+CMOVNC,"[rax, <peachpy.literal.Constant object at 0x7fd121a51ef0>]",5225091345
+CMOVE,"[rax, rax]",10237020296
+CMOVE,"[rax, rcx]",5122413909
+CMOVE,"[rax, <peachpy.literal.Constant object at 0x7fd121a51ef0>]",5294041770
+CMOVNE,"[rax, rax]",10249393493
+CMOVNE,"[rax, rcx]",5070155502
+CMOVNE,"[rax, <peachpy.literal.Constant object at 0x7fd121a51ef0>]",5332126924
+CMOVG,"[rax, rax]",10251733128
+CMOVG,"[rax, rcx]",4993454353
+CMOVG,"[rax, <peachpy.literal.Constant object at 0x7fd121a51ef0>]",5270730615
+CMOVNG,"[rax, rax]",10129604608
+CMOVNG,"[rax, rcx]",5057952699
+CMOVNG,"[rax, <peachpy.literal.Constant object at 0x7fd121a51ef0>]",5337120768
+CMOVGE,"[rax, rax]",10189438976
+CMOVGE,"[rax, rcx]",5085145770
+CMOVGE,"[rax, <peachpy.literal.Constant object at 0x7fd121a51ef0>]",5208720452
+CMOVNGE,"[rax, rax]",10195219251
+CMOVNGE,"[rax, rcx]",5191359965
+CMOVNGE,"[rax, <peachpy.literal.Constant object at 0x7fd121a51ef0>]",5204751155
+CMOVL,"[rax, rax]",10213593361
+CMOVL,"[rax, rcx]",5191748812
+CMOVL,"[rax, <peachpy.literal.Constant object at 0x7fd121a51ef0>]",5211798459
+CMOVNL,"[rax, rax]",10234553958
+CMOVNL,"[rax, rcx]",5194295978
+CMOVNL,"[rax, <peachpy.literal.Constant object at 0x7fd121a51ef0>]",5211271987
+CMOVLE,"[rax, rax]",10252851609
+CMOVLE,"[rax, rcx]",5155690905
+CMOVLE,"[rax, <peachpy.literal.Constant object at 0x7fd121a51ef0>]",5265444044
+CMOVNLE,"[rax, rax]",10268160819
+CMOVNLE,"[rax, rcx]",5081248563
+CMOVNLE,"[rax, <peachpy.literal.Constant object at 0x7fd121a51ef0>]",5344528520
+CMOVO,"[rax, rax]",10276514474
+CMOVO,"[rax, rcx]",5111567701
+CMOVO,"[rax, <peachpy.literal.Constant object at 0x7fd121a51ef0>]",5354784904
+CMOVNO,"[rax, rax]",10268752827
+CMOVNO,"[rax, rcx]",5096970649
+CMOVNO,"[rax, <peachpy.literal.Constant object at 0x7fd121a51ef0>]",5340685926
+CMOVP,"[rax, rax]",10257244706
+CMOVP,"[rax, rcx]",5088785203
+CMOVP,"[rax, <peachpy.literal.Constant object at 0x7fd121a51ef0>]",5254217728
+CMOVNP,"[rax, rax]",10189585339
+CMOVNP,"[rax, rcx]",5196799453
+CMOVNP,"[rax, <peachpy.literal.Constant object at 0x7fd121a51ef0>]",5220501640
+CMOVS,"[rax, rax]",10255601937
+CMOVS,"[rax, rcx]",5200266308
+CMOVS,"[rax, <peachpy.literal.Constant object at 0x7fd121a51ef0>]",5219429034
+CMOVNS,"[rax, rax]",10268248200
+CMOVNS,"[rax, rcx]",5225233339
+CMOVNS,"[rax, <peachpy.literal.Constant object at 0x7fd121a51ef0>]",5221910664
+CMOVZ,"[rax, rax]",10261602850
+CMOVZ,"[rax, rcx]",5175661909
+CMOVZ,"[rax, <peachpy.literal.Constant object at 0x7fd121a51ef0>]",5252961621
+CMOVNZ,"[rax, rax]",10277134882
+CMOVNZ,"[rax, rcx]",5098235494
+CMOVNZ,"[rax, <peachpy.literal.Constant object at 0x7fd121a51ef0>]",5366970231
+CMOVPE,"[rax, rax]",10281849105
+CMOVPE,"[rax, rcx]",5085816422
+CMOVPE,"[rax, <peachpy.literal.Constant object at 0x7fd121a51ef0>]",5345874193
+CMOVPO,"[rax, rax]",10257259997
+CMOVPO,"[rax, rcx]",5080920883
+CMOVPO,"[rax, <peachpy.literal.Constant object at 0x7fd121a51ef0>]",5339630796
+SETA,[al],5520794146
+SETNA,[al],5657178931
+SETAE,[al],5079424477
+SETNAE,[al],5210299869
+SETB,[al],5066786952
+SETNB,[al],5207112635
+SETBE,[al],5517967360
+SETNBE,[al],5641100765
+SETC,[al],5052128733
+SETNC,[al],5178309563
+SETE,[al],5059798630
+SETNE,[al],5225082606
+SETG,[al],5058260718
+SETNG,[al],5189090235
+SETGE,[al],5062101128
+SETNGE,[al],5115038924
+SETL,[al],5097390080
+SETNL,[al],5068495257
+SETLE,[al],5142531276
+SETNLE,[al],5058935739
+SETO,[al],5176889617
+SETNO,[al],5059813922
+SETP,[al],5180437299
+SETNP,[al],5049203643
+SETS,[al],5170364416
+SETNS,[al],5060220245
+SETZ,[al],5203420774
+SETNZ,[al],5073880132
+SETPE,[al],5194108108
+SETPO,[al],5074421896
+PAUSE,[],57586791219
+NOP,[],1521354888
+RDTSC,[],145647191108
+STC,[],2035751321
+CLC,[],1523412718
+CMC,[],2517325141
+CLD,[],21362276215
+XADD,"[rax, rax]",11918599782
